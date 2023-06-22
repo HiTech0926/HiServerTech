@@ -1,20 +1,23 @@
-# Slimefun4 Addon
-This is an example Repository for a generic Slimefun4 Addon.
-In the top left is a button "Use this template", click this to create your own Addon for Slimefun4 using this basic template.
 
-## How to create your own addon.
-This is a template repository that you can use to create your own Slimefun4 Addon.<br>
-We have also written an extensive step-by-step tutorial which you can find here:<br>
-https://github.com/Slimefun/Slimefun4/wiki/Developer-Guide
+# HiServerTech
 
-## Changing some important things
-Navigate to `src/main/java` and rename the package and the .java File to your liking.<br>
-Suggestion: "me.yourname.yourproject" (all lower case) and "ProjectName.java"<br>
-Example: "me.thebusybiscuit.cooladdon" and "CoolAddon.java"
 
-Navigate to `src/main/resources/plugin.yml` and change the "author" and "main" attributes.
-You may also want to change the description to something meaningful.
+## 关于
 
-Navigate to `pom.xml` and change the group id to "me.%Your name%" and change the artifact id to the name of your Project.
+这是一个Hi世界服务器使用的粘液附属插件，使用MIT许可证开源，欢迎各位提出好的想法意见！
+意见提出/Bug反馈：<[https://github.com/ecro-fun/FinalTECH/issues](https://github.com/HiTech0926/HiServerTech/issues)>
+## 权限
 
-After that you are good to go, you can now start developing your own Addon for Slimefun4.
+| 权限 | 命令 | 默认权限 | 说明 |
+| ---------- | ------- | ------- | ----------- |
+| hiservertech.command.help | /hiservertech help | default | 附属插件帮助 |
+
+## Bug反馈
+
+请在此处反馈Bug <[https://github.com/ecro-fun/FinalTECH/issues](https://github.com/HiTech0926/HiServerTech/issues)>.
+
+## 版本更新
+
+### 20230622
+
++ 插件诞生
