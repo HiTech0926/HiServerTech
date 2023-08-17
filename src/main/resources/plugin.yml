@@ -7,5 +7,4 @@ version: 1.0
 api-version: 1.14
 depend:
 - Slimefun
-softdepend:
-  - GuizhanLibPlugin
+- GuizhanLibPlugin
