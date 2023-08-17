@@ -67,11 +67,13 @@ public class ExampleAddon extends JavaPlugin implements SlimefunAddon {
          */
         SlimefunItem item = new SlimefunItem(itemGroup, slimefunItem, RecipeType.ENHANCED_CRAFTING_TABLE, recipe);
         item.register(this);
+        getLogger().info("§f§l[§e§lHiWorldTech§f§l] §a附属插件已加载！");
     }
 
     @Override
     public void onDisable() {
         // Logic for disabling the plugin...
+        getLogger().info("§f§l[§e§lHiWorldTech§f§l] §a附属插件已卸载！");
     }
 
     @Override
